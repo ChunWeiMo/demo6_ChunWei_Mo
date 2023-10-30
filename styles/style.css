@@ -1,1 +1,58 @@
+/*
+* --------------------------------------------
+* These are some styles of customizing 
+* to over-ride the default bootstrap ones
+*---------------------------------------------
+*/
 
+/*Given Colors:
+*Darkest: #562C2C
+*Accent: #F2542D
+*Light: #F5DFBB
+*Medium: #0E9594
+*Dark: #127475
+*/
+.bg-info {
+    background-color: #6F1D1B !important;
+    /* Medium shade for navbar */
+}
+
+.navbar-light .navbar-brand,
+.navbar-light .navbar-nav .nav-link {
+    color: #FFE6A7;
+    /* Light shade for brand name & nav links for contrast */
+}
+
+.btn-info {
+    color: #FFE6A7;
+    /* Light shade for text on info button */
+    background-color: #432818;
+    /* Accent color for button background */
+    border-color: #6F1D1B;
+    /* Dark shade for button border */
+}
+
+.btn-primary {
+    color: #FFE6A7;
+    /* Light shade for text */
+    font-size: 150%;
+    background-color: #99582A;
+    /* Dark shade for primary button background */
+    border-color: #432818;
+    /* Darkest shade for border */
+    border-width: thick;
+}
+
+body {
+    background-color: #FFE6A7;
+    /* Light shade for body background */
+}
+
+.navbar-brand{
+    font-family: 'Pixelify Sans', sans-serif;
+    font-size: 32px;
+}
+
+footer .material-icons{
+    color: #FFE6A7;
+}
